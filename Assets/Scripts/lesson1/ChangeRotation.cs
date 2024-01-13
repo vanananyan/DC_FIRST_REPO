@@ -20,27 +20,27 @@ namespace lesson1
         }
         private void Update()
         {
-            if (rotateValue.x >= 180)
+            if (rotateValue.x > 180)
             {
                 rotateValue.x = rotateValue.x - 360;
             }
-            else if(rotateValue.x <= -180) 
+            else if(rotateValue.x < -180) 
             {
                 rotateValue.x = rotateValue.x + 360;
             }
-            if (rotateValue.y >= 180)
+            if (rotateValue.y > 180)
             {
                 rotateValue.y = rotateValue.y - 360;
             }
-            else if(rotateValue.y <= -180) 
+            else if(rotateValue.y < -180) 
             {
                 rotateValue.y = rotateValue.y + 360;
             }
-            if (rotateValue.z >= 180)
+            if (rotateValue.z > 180)
             {
                 rotateValue.z = rotateValue.z - 360;
             }
-            else if(rotateValue.z <= -180) 
+            else if(rotateValue.z < -180) 
             {
                 rotateValue.z = rotateValue.z + 360;
             }
